@@ -1,4 +1,6 @@
-# 🍺 JaggerWhiskyTequila
+<h1 align="center">
+    🍺 JaggerWhiskyTequila 🍺
+</h1>
 
 ## 💭 Concepto
 
@@ -7,7 +9,7 @@ Cuando se accede a la web, se pueden observar distintos tipos de bebida. Al inte
 
 > No tienes +18 años
 
-Observando las cookies, comprobamos que la página nos ha asignado una con el nombre de `cliente` y con el siguiente valor:
+Si comprobamos las cookies, encontraremos una con el nombre de `cliente` y el siguiente valor:
 
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlZGFkIjoxN30.Lq26ql5McZjRfR-2zsTv1Z9UbygMvbbaXP53-QfXO-s
@@ -17,7 +19,7 @@ Con un poco de práctica, es posible reconocer la estructura de la misma. Las do
 
 Por lo tanto, se puede deducir que la solución estará basada en vulnerabilidades conocidas de `JWT`.
 
-> Una pista a mayores es el nombre del reto: **J**agger**W**hisky**T**equila (JWT)
+> Una pista a mayores es el nombre del reto: **J**agger**W**hisky**T**equila (**JWT**)
 
 ## 📜 Teoría
 
