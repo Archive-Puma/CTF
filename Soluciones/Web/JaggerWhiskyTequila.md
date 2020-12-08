@@ -25,7 +25,10 @@ Por lo tanto, se puede deducir que la solución estará basada en vulnerabilidad
 
 Lo primero de todo es decodificar la cookie. Para ello podemos hacer uso de herramientas online, como [JWT.io](https://jwt.io/), o segmentar la cadena según el delimitador (en este caso, un punto), dado que JWT sigue el siguiente formato:
 
-![JWT Format](../.img/jwt-format.webp)
+<h1 align="center">
+    <img alt="JWT Format" src="../.img/jwt-format.webp" />
+</h1>
+
 
 En el **Header** se especifica el tipo de formato que se utiliza, así como el algoritmo a usar para cifrar/descifrar los datos.
 
