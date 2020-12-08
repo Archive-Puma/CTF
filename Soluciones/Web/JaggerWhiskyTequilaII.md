@@ -8,7 +8,7 @@ Cuando se accede a la web, se pueden observar el mismo contenido que en el reto 
 
 > No tienes +18 años
 
-Exactamente igual que antes, si comprobamos las cookies, encontraremos una con el nombre de `cliente` y un valor similar al este:
+Exactamente igual que antes, si comprobamos las cookies, encontraremos una con el nombre de `cliente` y un valor similar a este:
 
 ```
 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJlZGFkIjoxOH0.wy2HzlTakbUXb0BFEw1nVI5ItrXdDxQ-UpmNV9_KuN1MBH5UwKNPoebu4Nn7k0jw3GFWoXTnIhQcrvPEH_Xj6LwMk716EAm8n7uSp_XWKNjZTlzKm0_IhW_k3YnQxd9hAYDH8OpiaU4o4ubhBGWX3qbBWwc1ZUxOYfu29lAons3e3oAKd7u1-YF4oHsik29OrdDKU5A12hkQoygRs7XCVYHQMTlHjM6tyD0RiAJn20TIwD6RxXQlpJib7_RkJpk3SEmIqrWyto3OwfRmehVJ-qToJmvAAVsHaqDYEzZEiFXIDNlI6W71R0UpRU8XvlUxXa5WGM9fhVF5rgNc7aNVzdt-Y1xf3UAv68_vmmPcsvjyw9DpnGDQCMXBObqP0HV3zpFUuak33ZB4EVZRXq9MFkvsj2CXY58cHh4psppF6vmIR7-tOfTqLkg6G2FUhDOTn_x6mDRZ1xOWio8gK1qt5Mf3rml3KSDGWae0vdcFfihMIyyO5-0V-5WSYopH409tJw20vzZm6AsrhPW9RZiczK0efZRCXa22Tb5j9c03Cewt4JQ6Xcj6s-eiBW_99XQUkcpivshaHtKSwzaSFLNfBhwjir7dpug_DVejEF4XJ_62Qu6jWPTa0UPa_oor6p8uXwkzMCC5-g4oVGxLuoTp1f42VUkK4UFKiUZVb0g3tzk
