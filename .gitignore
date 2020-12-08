@@ -1,2 +1,5 @@
+# Python
 **/*.pyc
 **/__pycache__/
+# Keys
+**/id_rsa*
