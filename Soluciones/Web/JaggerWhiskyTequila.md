@@ -39,7 +39,7 @@ echo -n "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9" | base64 -d
 # {"typ": "JWT","alg": "HS256"} 
 ```
 
-> `HS256` indica que el **Payload** está cifrado usando una clave
+> `HS256` indica que el **Payload** está cifrado usando una clave simétrica
 
 Si hacemos lo mismo con el segundo fragmento, podemos obtener la información guardada actualmente en la cookie:
 
