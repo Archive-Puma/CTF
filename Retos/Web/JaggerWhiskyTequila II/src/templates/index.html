@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licores</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+    <div class="app flex">
+        <h1>Licores</h1>
+
+        <div class="products">
+            <div class="flex">
+                <img src="{{ url_for('static', filename='img/jagger.jpg') }}" alt="Jagger">
+                <div class="button" onclick="buy()">Comprar</div>
+            </div>
+    
+            <div class="flex">
+                <img src="{{ url_for('static', filename='img/whisky.jpg') }}" alt="Whisky">
+                <div class="button" onclick="buy()">Comprar</div>
+            </div>
+    
+            <div class="flex">
+                <img src="{{ url_for('static', filename='img/tequila.jpg') }}" alt="Tequila">
+                <div class="button" onclick="buy()">Comprar</div>
+            </div>
+        </div>
+
+        <script>function buy() { window.location.href = "/comprar" }</script>
+    </div>
+
+    <!-- Como la última vez nos hackearon, he generado una llave pública y otra privada para evitar que vuelva a suceder -->
+</body>
+</html>
