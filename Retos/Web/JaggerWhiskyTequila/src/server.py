@@ -28,7 +28,10 @@ def buy():
 @app.route('/', methods=['GET'])
 def index():
     r = make_response(render_template('index.html'))
-    r.set_cookie('cliente', token)
+    if request.cookies.get('session'):
+        r.delete_cookie('session')
+    if request.cookies.get('cliente') == None:
+        r.set_cookie('cliente', token)
     return r, 200
 
 if __name__ == '__main__':
