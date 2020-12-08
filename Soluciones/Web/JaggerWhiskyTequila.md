@@ -4,7 +4,6 @@
 
 ## 💭 Concepto
 
-
 Cuando se accede a la web, se pueden observar distintos tipos de bebida. Al intentar comprar una, nos redirige a la URL `/compra` donde nos aparece el siguiente mensaje:
 
 > No tienes +18 años
@@ -28,7 +27,6 @@ Lo primero de todo es decodificar la cookie. Para ello podemos hacer uso de herr
 <h1 align="center">
     <img alt="JWT Format" src="../.img/jwt-format.webp" />
 </h1>
-
 
 En el **Header** se especifica el tipo de formato que se utiliza, así como el algoritmo a usar para cifrar/descifrar los datos.
 
