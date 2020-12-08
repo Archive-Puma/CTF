@@ -60,7 +60,7 @@ Este reto se puede resolver de varias maneras.
 Vulnerabilidad: Algoritmo None
 ```
 
-Aunque hoy en día ya no es habitual encontrarse con este fallo, hay veces que las páginas permiten el uso del algoritmo None o no comprueban la **Signature**.
+Aunque hoy en día ya no es habitual encontrarse con este fallo, hay veces que las páginas permiten el uso del algoritmo `none` o no comprueban la **Signature**.
 
 
 En el primer caso y con el fin de modificar el **Payload** satisfactoriamente, bastaría con cambiar el valor de `"alg": "HS256"` a `"alg": "none"`.
