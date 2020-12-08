@@ -54,8 +54,6 @@ Como vimos en la página de `/compra`, el mensaje nos indicaba que no teníamos 
 
 La vulnerabilidad de este reto no se encuentra en el `JWT` en sí, sino en la premisa de que sabiendo qué clave se ha usado durante el cifrado, seremos capaces de modificar el **Payload**.
 
----
-
 ```yml
 Vulnerabilidad: Claves privadas leakeadas
 ```
