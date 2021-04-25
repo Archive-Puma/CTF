@@ -24,6 +24,8 @@ Solution:
 cat flag.txt | tr '[:lower:]' '[:upper:]' | tr -cd 'IO' | tr 'IO' '10' | perl -lpe '$_=pack"B*",$_'
 ```
 
+---
+
 ### XOR (1-byte)
 
 Since it is a simple `XOR` operation of only one-byte length, a brute force attack is possible, because there are only 256 possible keys.
@@ -41,5 +43,6 @@ KNOWN = "CTF"
 CHALLENGE = ""
 
 guesses = [(k, ''.join([chr(c^k) for c in bytes.fromhex(CHALLENGE)])) for k in range(256)]
-for (k,m) in filter(lambda x: KNOWN in x[1], guesses): print(f'{chr(45) * 10}\nKey: {hex(k)}\nMessage: {m}')
+for (k,m) in filter(lambda x: KNOWN in x[1], guesses):
+    print(f'{chr(45) * 10}\nKey: {hex(k)}\nMessage: {m}')
 ```
