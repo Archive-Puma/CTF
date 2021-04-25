@@ -13,13 +13,13 @@
 
 The message is encoded in binary using the words `PING` and `PONG`.
 
-Example:
+**Example**:
 
 ```sh
 PONG PING PONG PONG PONG PONG PING PING PONG PING PONG PING PONG PING PONG PONG PONG PING PONG PONG PONG PING PING PONG PONG PING PING PING PING PONG PING PING PONG PING PING PONG PONG PING PING PONG PONG PING PING PONG PING PING PONG PONG PONG PING PING PONG PONG PONG PONG PING PONG PING PING PONG PONG PING PING PING PONG PING PING PING PING PING PONG PING
 ```
 
-Solution:
+**Solution**:
 
 ```sh
 cat flag.txt | tr '[:lower:]' '[:upper:]' | tr -cd 'IO' | tr 'IO' '10' | perl -lpe '$_=pack"B*",$_'
@@ -31,13 +31,13 @@ cat flag.txt | tr '[:lower:]' '[:upper:]' | tr -cd 'IO' | tr 'IO' '10' | perl -l
 
 Since it is a simple `XOR` operation of only one-byte length, a `brute force attack` is possible, because there are only 256 possible keys.
 
-Example:
+**Example**:
 
 ```sh
 b7a0b28f9298959389
 ```
 
-Solution:
+**Solution**:
 
 ```sh
 KNOWN = "CTF"
@@ -52,13 +52,13 @@ for (k,m) in filter(lambda x: KNOWN in x[1], guesses):
 
 If the key is shorter in length than the message, then ***it is not an OTP cipher***, so we can perform `reused key attacks`.
 
-Example:
+**Example**:
 
 ```sh
 d6db3beedb18e6fb00 # 3-byte key
 ```
 
-Solution:
+**Solution**:
 
 [OTP pwn](https://github.com/derbenoo/otp_pwn) allows to load a file with the flag and add the known text in order to perform a reused key attack:
 
