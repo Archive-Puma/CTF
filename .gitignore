@@ -1,5 +1,4 @@
-# Python
-**/*.pyc
-**/__pycache__/
-# Keys
-**/id_rsa*
+# Folders
+/_old/
+/.vscode/
+/.ipynb_*/

@@ -1,5 +1,0 @@
-Flask==1.1.2
-PyJWT==1.7.1
-gunicorn==20.0.4
-cffi==1.14.0
-cryptography==2.9.2
